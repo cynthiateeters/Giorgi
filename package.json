@@ -1,8 +1,15 @@
 {
   "name": "giorgi",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Get to know Giorgi Zeikidze",
   "main": "index.js",
+  "bin": {
+    "giorgi": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint index.js"
@@ -11,16 +18,16 @@
     "type": "git",
     "url": "git+https://github.com/giozeikidze/Giorgi.git"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "command-line"
+  ],
   "author": "Giorgi Zeikidze <gzei4366@stu.raritanval.edu> (https://github.com/giozeikidze)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/giozeikidze/Giorgi/issues"
   },
   "homepage": "https://github.com/giozeikidze/Giorgi#readme",
-  "bin": {
-    "your-name": "index.js"
-  },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
     "eslint": "^9.19.0",
